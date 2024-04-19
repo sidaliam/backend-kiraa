@@ -21,7 +21,7 @@ const connect = async () => {
 };
 // Configuration CORS pour autoriser uniquement une origine spécifique
 const corsOptions = {
-  origin: "http://localhost:8000", // Remplacez par le domaine de votre frontend déployé
+  origin: "http://localhost:3000", // Remplacez par le domaine de votre frontend déployé
   methods: "GET,POST,PUT,DELETE",
   allowedHeaders: "Content-Type,Authorization",
 };
